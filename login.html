@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALI</title>
+    <!-- file -->
+    <link rel="stylesheet" href="./assets/css/color.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/components/login.css" />
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body class="">
+    <div class="bg-wrapper" style="background-image: url(./assets/imgs/login/login_background3.jpg)"></div>
+
+    <div class="box-login text-center">
+        <div id="logo-icon">
+            <img src="./assets/imgs/logo/ali_logo.png" alt="" />
+        </div>
+        <form class="content">
+            <div id="box2" class="item-form box">
+                <input type="text" placeholder="아이디" class="w-100" required />
+            </div>
+            <div id="box1" class="item-form box">
+                <input type="password" placeholder="비밀번호" class="w-100" required />
+            </div>
+            <div class="item-form a-tag text-start cur">
+                <a data-bs-toggle="modal" data-bs-target="#regis">
+                    <i class="fa fa-user" aria-hidden="true"></i> 회원가입
+                </a>
+            </div>
+            <button id="submit1" type="submit" class="item-form box submit"></button>
+        </form>
+    </div>
+
+    <!-- popup -->
+    <div class="modal res-box fade" id="regis" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex flex-column justify-content-center">
+                    <div id="join">
+                        <input type="text" placeholder="가입코드를 입력하세요." />
+                    </div>
+                    <button id="submit2" class="submit cur"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- javascript file -->
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>

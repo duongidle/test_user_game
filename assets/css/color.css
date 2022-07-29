@@ -1,0 +1,101 @@
+:root {
+    --yellow-color: #E7DF48;
+    --yellow-lighter-color: #E2BF64;
+    --yellow-darker-color: #EEA447;
+    --red-color: red;
+    --red-lighter-color: #F22029;
+    --green-color: #37C650;
+    --green-lighter-color: #8DBA87;
+    --blue-color: #466ed6;
+    --blue-lighter-color: #307BBC;
+    --grey-color: #333333;
+    --grey-lighter-color: #686868;
+    --grey-lighter-color1: #262932;
+    --grey-lighter-color2: #353942;
+    --black-color: #000;
+    --white-color: #eee;
+    --brown-color: #d87458;   
+}
+.text-powerball {
+    color: rgb(91, 43, 11);
+}
+
+.bg-black-color {
+    background-color: var(--black-color)!important;
+}
+
+.bg-grey-color {
+    background-color: var(--grey-color)!important;
+}
+
+.bg-grey-color1 {
+    background-color: var(--grey-lighter-color1)!important;
+}
+
+.bg-grey-color2 {
+    background-color: var(--grey-lighter-color2)!important;
+}
+
+.bg-grey-lighter-color {
+    background-color: var(--grey-lighter-color)!important;
+}
+
+.bg-brown-color {
+    background-color: var(--brown-color);
+}
+
+.text-menu-color {
+    color: var(--yellow-darker-color)!important;
+}
+
+.text-timeline-color {
+    color: var(--yellow-color)!important;
+}
+
+.text-white-color {
+    color: var(--white-color)!important;
+}
+
+.text-black-color {
+    color: var(--black-color)!important;
+}
+
+.text-green-color {
+    color: var(--green-color)!important;
+}
+
+.text-green-lighter-color {
+    color: var(--green-lighter-color)!important;
+}
+
+.text-yellow-color {
+    color: var(--yellow-color)!important;
+}
+
+.text-yellow-darker-color {
+    color: var(--yellow-darker-color)!important;
+}
+
+.text-yellow-lighter-color {
+    color: var(--yellow-lighter-color)!important;
+}
+
+.text-blue-color {
+    color: var(--blue-color)!important;
+}
+
+.text-red-color {
+    color: var(--red-lighter-color)!important;
+}
+
+.btn-yellow-color {
+    background-color: var(--yellow-color)!important;
+}
+
+.btn-blue-color {
+    background-color: var(--blue-lighter-color)!important;
+}
+
+.btn-red-color {
+    color: var(--red-color)!important;
+}

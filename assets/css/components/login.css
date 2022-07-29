@@ -1,0 +1,91 @@
+/* login page */
+.box-login {
+    width: 300px;
+    height: 650px;
+    background-image: url(../../imgs/login/login_white_bg.jpg);
+    padding: 20px;
+    padding-top: 120px;
+    position: relative;
+}
+
+#logo-icon {
+    position: absolute;
+    top: 7px;
+    left: 30px;
+    width: 240px;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-form {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.box {
+    width: 258px;
+    height: 34px;
+    z-index: -10000000000000000;
+    padding: 6px 12px 6px 55px;
+}
+
+#box1 {
+    background-image: url(../../imgs/login/login_box1.jpg);
+}
+
+#box2 {
+    background-image: url(../../imgs/login/login_box2.jpg);
+}
+
+#submit1 {
+    background-image: url(../../imgs/login/login_box2_1.jpg);
+}
+
+.submit {
+    width: 254px;
+    height: 37px;
+    border-radius: 2px;
+}
+
+.item-form.a-tag {
+    font-size: 13px;
+    font-weight: 700;
+    color: #505050;
+    padding: 8px 0;
+}
+
+.modal.res-box {
+    width: 300px;
+    position: absolute;
+    top: auto;
+    left: auto;
+    height: auto;
+}
+
+.modal.res-box .modal-dialog .modal-content {
+    border-radius: 0;
+    border: 3px solid #f6a821;
+}
+
+.modal.res-box .modal-header {
+    border: none;
+}
+
+#join {
+    width: 258px;
+    height: 36px;
+    background-image: url(../../imgs/login/join_inputbox_1.jpg);
+    margin: -20px 0 30px;
+    padding: 6px 12px;
+}
+
+#join input {
+    background: transparent;
+    color: #fff;
+}
+
+#submit2 {
+    background-image: url(../../imgs/login/login_box2_2.jpg);
+}

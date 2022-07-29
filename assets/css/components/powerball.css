@@ -1,0 +1,182 @@
+.time-input,
+.day-input {
+    height: 3rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-input img,
+.day-input img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.time-input p,
+.day-input p {
+    z-index: 1000;
+    font-weight: 600;
+}
+
+.text-group {
+    height: 4rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-group img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    z-index: 0;
+}
+
+.text-group p {
+    z-index: 1;
+}
+
+.powerball-group {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.powerball-group__bet {
+    margin: 0.2rem;
+}
+.powerball-group__bet .title-group {
+    width: 100%;
+    height: 2rem;
+    position: relative;
+}
+.powerball-group__bet .title-group img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+    z-index: 0;
+}
+.powerball-group__bet .title-group p {
+    height: 100%;
+    padding: 0.2rem;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.powerball-group .body-group {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.powerball-group .powerball-group__bet.numbers .body-group {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.powerball-group .body-group .btn-bet {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem 0;
+    margin: 0.2rem;
+}
+.powerball-group .body-group .btn-bet img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.powerball-group .body-group .btn-bet p {
+    position: relative
+}
+.powerball-group .body-group .btn-bet .text {
+    font-size: 1.2rem;
+    font-weight: 700;
+    -webkit-text-stroke: 0.3px var(--yellow-lighter-color);
+}
+.powerball-group .body-group .btn-bet .sub {
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+
+.powerball-group .body-group .btn-bet .img1 {
+    z-index: 0;
+}
+.powerball-group .body-group .btn-bet .img2 {
+    z-index: -1;
+}
+.powerball-group .body-group .btn-bet.active .img1 {
+    z-index: -1;
+}
+.powerball-group .body-group .btn-bet.active .img2 {
+    z-index: 0;
+}
+
+/* right */
+
+.r-title {
+    width: 100%;
+    height: 3rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.r-title img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+    z-index: 0;
+}
+.r-title p {
+    z-index: 1000;
+    position: relative;
+}
+
+.r-text {
+    width: 100%;
+    position: relative;
+}
+.r-text img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+.r-text .input-text,
+.r-text .text-text {
+    position: relative;
+}
+
+.r-body .amount-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.2rem;
+    padding: 0.5rem;
+}
+.r-body .amount-group .amount-group__item {
+    width: 100%;
+}
+.r-body .amount-group .amount-group__item img {
+    width: 100%;
+}
+
+.betting-button {
+    padding: 0 0.5rem;
+    width: 100%;
+}
+.betting-button img{
+    width: 100%;
+    margin-bottom: 0.3rem;
+}
